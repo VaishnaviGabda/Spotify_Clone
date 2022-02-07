@@ -4,7 +4,7 @@ export const initialState = {
     playing:false,
     item:null,
     //token is for testing
-   token: 'BQCG3dkwkdBkNdgWYGWVw-kIZGRy-qBSFoRikMBPTwh3_VHUs5-AQYGlCKIDK1VsDHvxnxa9xkWWKBi-ySL09Az7dylI6BwbMS9SgVd_PtzLnhhfLBtBFmT1VsIwjf4NEiBKn-SUq6da_OltyYosqHOllTJI54bpMaYyDb8w3WTi4JxPKT5U',
+   //token: 'BQCG3dkwkdBkNdgWYGWVw-kIZGRy-qBSFoRikMBPTwh3_VHUs5-AQYGlCKIDK1VsDHvxnxa9xkWWKBi-ySL09Az7dylI6BwbMS9SgVd_PtzLnhhfLBtBFmT1VsIwjf4NEiBKn-SUq6da_OltyYosqHOllTJI54bpMaYyDb8w3WTi4JxPKT5U',
 
 };
 
