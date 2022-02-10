@@ -6,15 +6,14 @@ import SkipNextIcon from "@material-ui/icons/SkipNext";
 import ShuffleIcon from "@material-ui/icons/Shuffle";
 import RepeatIcon from "@material-ui/icons/Repeat";
 import VolumeDownIcon from "@material-ui/icons/VolumeDown";
-import PauseCircleOutlineIcon from "@material-ui/icons/PauseCircleOutline";
 import PlaylistPlayIcon from "@material-ui/icons/PlaylistPlay";
 import { Grid, Slider } from "@material-ui/core";
 
 function Footer() {
   return <div className='footer'>
       <div className='footer_left'>
-        <img className='footer_albumLogo'
-        src='' alt='1234'/>
+        <img className='footer__albumLogo'
+        src='https://previews.123rf.com/images/bestvectorstock/bestvectorstock1808/bestvectorstock180807517/107315939-song-note-icon-vector-isolated-on-white-background-for-your-web-and-mobile-app-design-song-note-logo.jpg' alt='1234'/>
         <div className='footer__songInfo'>
           <h4>Yeah!</h4>
 

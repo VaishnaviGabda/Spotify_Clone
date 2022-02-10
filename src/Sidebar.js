@@ -7,8 +7,9 @@ import LibraryMusicIcon from "@material-ui/icons/LibraryMusic"
 import { useDataLayerValue } from "./DataLayer";
 
 
-function Sidebar() {
+function Sidebar({spotify}) {
   const [{ playlists }, dispatch] =  useDataLayerValue();
+   console.log(playlists);
 
   return <div className="sidebar">
 
@@ -19,14 +20,18 @@ function Sidebar() {
       <SidebarOption Icon={LibraryMusicIcon} title="Your Library"/>
       <br/>
       <strong className="sidebar__title">PLAYLISTS</strong>
-      <hr />
-      {playlists?.items?.map((playlist) => (
-        <SidebarOption option={playlist.name} />
-      ))}
-    
+      <hr /> 
       
+      <SidebarOption title={"#Playlists1"}/>
+      <SidebarOption title={"#Playlists2"}/>
+      <SidebarOption title={"#Playlists3"}/>
+
       
-  </div>
+      {playlists?.items?.map(playlist => (
+        <SidebarOption title={playlist.name}/>
+      ))}   
+      </div> 
+
 }
 
 export default Sidebar;
